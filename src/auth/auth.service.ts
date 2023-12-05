@@ -9,4 +9,12 @@ export class AuthService {
   signup() {
     return { msg: 'I have signed in' };
   }
+
+  update() {
+    return { msg: 'User updated successfully'}
+  }
+
+  delete() {
+    return { msg: 'User deleted successfully'}
+  }
 }
